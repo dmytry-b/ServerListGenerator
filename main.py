@@ -24,7 +24,6 @@ def load_data():
     while True:
         try:
             s = input('Please enter the filename\n')
-            f = open(s)
             file_name = os.path.join(work_dir, s)
             input_list = []
             # file_name = '0904.csv'
